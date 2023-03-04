@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            background-color: rgb(160, 159, 159);
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+        }
+        nav{
+            padding: 10px;
+            box-shadow: 1.8px 2.6px 3px 1px rgba(0, 0, 0, 0.493);
+            border-top-left-radius: 10px;
+            border-bottom-right-radius:10px;
+        }
+        header{
+            margin: 5px;
+            padding: 10px;
+            background-color: white;
+            margin: 10px;
+            border-top-right-radius: 10px;
+            border-bottom-left-radius:10px;
+        }
+        header > nav > a{
+            color: white;
+            text-decoration: none;
+            padding-right:3px ;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+        }
+       header > nav > a:hover{
+            text-decoration: underline;
+        }
+        main{
+            background-color: white;
+            margin: 5px 10px 7px 10px;
+            padding: 5px 10px 30px 10px;
+          border-top-right-radius:10px;
+          border-bottom-left-radius: 10px;
+        }
+        main > article{
+        height: 45px;
+         padding: 0.5px;
+          background-color: rgb(80, 80, 80);
+          color: white;
+          text-align: center ;
+          border-radius: 5px 12px;
+
+        }
+        footer{
+            background-color: black;
+            color: white;
+            padding: 5px;
+            margin: 0px;
+            text-align: center;
+        }
+        nav{
+            background-color: dimgray;
+        }
+        footer > p{
+            margin: 0px;
+            padding: 6px;
+        }
+        div#bola{
+            width: 100px;
+            height: 100px;
+            background-color: white;
+            margin:10px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <!--<div> </div>   box-level-->
+    <!--<span></span> inline-level-->
+    <header>
+        <h1>Este é meu site</h1>
+    <nav>
+       <a href="#">Link</a>
+       <a href="#">Link</a>
+       <a href="#">Link</a>
+       <a href="#">Link</a>
+       <a href="#">Link</a>
+    </nav>
+    </header>
+    <main>
+       <h2>Título</h2>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quod aspernatur atque illum deleniti eos at? Aut laborum perspiciatis quas? Ad id enim adipisci hic totam accusamus natus laboriosam laudantium?</p>
+       <article>
+         <p id="autor">Autor: Luscado Tostado dos Chocados</p>
+       </article>
+    </main>
+    <footer>
+    <p>Desenvolvido por lukinhas</p>
+    </footer>
+    <div id="bola">
+
+    </div>
+</body>
+</html>

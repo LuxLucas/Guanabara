@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<HTML charset="pt-br">
+  <HEAD>
+    <meta charset="UTF-8">
+	<title>Mídias em HTML5</title>
+  </HEAD>
+  <BODY>
+      <h1>Imagem dinâmica</h1>
+	    <p>Tente abrir esse site em vários dispositivos diferentes ou aumente e diminua o tamanho do seu navegador.</p>
+	   <picture>
+	     <source media="(max-width: 750px)" srcset="img/img-p.png" type="image/png">
+	     <source media="(max-width: 1050px)" srcset="img/img-m.png" type="image/png">
+	     <img src="img/img-g.png" alt="Foto Flexível">
+	   </picture>
+	     <audio preload="metadata" controls>
+		   <source src="midia/Nerdcast_211_profissao_programador.mp3" type="audio/mpeg">
+		    <source src="midia/Nerdcast_211_profissao_programador.ogg" type="audio/ogg">
+			<source src="midia/Nerdcast_211_profissao_programador.wav" type="audio/wav">
+			<p>Infelizmente seu navegador não é compatível com o formato de aúdio. <a href="midia/Nerdcast_211_profissao_programador.zip" download="Nerdcast_211_profissao_programador.zip" type="applicatio/zip">Clique para baixa-lo no formato MP3 e compactado</a></p>
+		 </audio>
+  </BODY>
+</HTML>

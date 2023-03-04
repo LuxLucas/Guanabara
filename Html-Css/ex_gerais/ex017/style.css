@@ -1,0 +1,14 @@
+@charset "UTF-8";
+/*
+body{
+    font-size: em;
+}*/
+H1{
+font: italic bolder 3em Arial,sans-serif;
+}
+h2{
+font:        bold   2em Arial,Helvetica,sans-serif;
+}
+p{
+font:        bolder 1em 'Times New Roman',sans-serif;
+}
