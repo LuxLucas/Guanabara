@@ -1,4 +1,4 @@
-print(f'{"METRO, CM E MM":=^50}')
+print(f'{"CONVERSOR DE DISTÂNCIA":=^50}')
 while True:
     try:
         valorEmMetros = float(input("Digite o valor em metros:"))
@@ -6,7 +6,12 @@ while True:
     except (ValueError, TypeError) as erro:
         print(f'{"CARACTERE INVÁLIDO":=^50}')
 print(f'{"RESULTADO":=^50}')
-print('Metros (M): {}'.format(valorEmMetros))
-print('Centímetros (CM): {}'.format(valorEmMetros*100))
-print('Milímetros (MM): {}'.format(valorEmMetros*1000))
+print('A medida de {} corresponde a:'.format(valorEmMetros))
+print(valorEmMetros/1000, 'Km')
+print(valorEmMetros/100, 'Hm')
+print(valorEmMetros/10, 'Dam')
+print(valorEmMetros, 'm')
+print(valorEmMetros*10, 'dm')
+print(valorEmMetros*100, 'cm')
+print(valorEmMetros*1000, 'mm')
 print(f'{"FIM":=^50}')

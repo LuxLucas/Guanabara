@@ -12,5 +12,5 @@ while True:
 print(f'\n{"RESULTADO":=^50}')
 area = altura * largura
 areaTinta = area / 2
-print('Área da parede em metros: {}m'.format(area))
-print('Tinta nescessária para pintá-la: {}L\n'.format(areaTinta))
+print('Área da parede em metros: {}m²'.format(area))
+print('Tinta nescessária para pintá-la: {:.2f}L\n'.format(areaTinta))
