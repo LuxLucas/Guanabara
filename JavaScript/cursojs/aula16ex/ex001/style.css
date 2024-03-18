@@ -2,6 +2,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -59,20 +62,15 @@ section.conteiner-box{
 .box{
     padding: 0.5rem;
     width: 100%;
-}
-
-#box-1{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-div#box-1 input{
-    height: 30px;
-    width: 200px;
-}
-
-div#box-1 select#lista{
-    height: 100px;
-    width: 200px;
+hr{
+    padding: 0.5rem;
+    width: 100%;
+    border: none;
+    display: flex;
+    align-items: center;
 }
 
 #box-2{
@@ -83,6 +81,61 @@ div#box-1 select#lista{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    width: 100%;
+    max-width: 500px;
+    min-width: 250px;
+}
+
+.box-mini-inputs input{
+    height: 30px;
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+}
+
+.box-mini select#lista{
+    height: 140px;
+    width: 200px;
+    padding: 0.5rem;
+}
+
+.box-mini-controls{
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+}
+
+.box-mini-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: auto;
+}
+
+.box-mini-buttons button{
+    padding: 0.7rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    border-radius: 3px;
+    cursor: pointer;
+    border: none;
+}
+
+button#add{
+    color: white;
+    background-color: #FD3302;
+}
+
+button#add:active{
+    background-color: rgba(253, 51, 1, 0.82);
+}
+
+button#fim{
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+button#fim:active{
+    background-color: rgba(204, 204, 204, 0.5);
 }
 
 footer{

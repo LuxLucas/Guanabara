@@ -12,12 +12,25 @@
                 <h1>Analisando Números</h1>
                 <section class="conteiner-box">
                     <div id="box-1" class="box">
-                        <p class="p-title">Insira Valores de 1 a 100:</p>
                         <div class="box-mini">
-                            <input type="text">
+                            <div class="box-mini-controls">
+                                <div class="box-mini-inputs">
+                                    <p class="p-title">Insira Valores de 1 a 100:</p>
+                                    <input type="text" id="numero">
+                                </div>
+                                <div class="box-mini-buttons">
+                                    <button type="button" id="add">
+                                        Adicionar
+                                    </button>
+                                    <button type="button" id="fim">
+                                        Finalizar
+                                    </button>
+                                </div>
+                            </div>
                             <select name="select" id="lista" size="6"></select>
                         </div>
                     </div>
+                    <hr>
                     <div id="box-2" class="box">
                         <p class="p-title">Resultado:</p>
                     </div>
@@ -27,5 +40,7 @@
         <footer>
             <p>@By Lucas Flôres for Curso em Vídeo</p>
         </footer>
+
+        <script src="script.js"></script>
     </body>
 </html>
