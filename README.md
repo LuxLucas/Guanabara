@@ -1,5 +1,7 @@
 # Curso em Vídeo
 
+**Autor:** _Lucas Pizoni Flôres_
+
 ## O que é?
 O Curso em Vídeo é uma plataforma online que oferece uma variedade de cursos voltados para iniciantes na área de tecnologia. Fundada em 2013 pelo professor Gustavo Guanabara, a plataforma tem como objetivo proporcionar ensino de qualidade de forma acessível e gratuita para todos.
 
