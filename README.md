@@ -19,7 +19,7 @@ Entre outros. Com módulos atualizados regularmente e uma comunidade ativa de al
 
 Visite o [site oficial do Curso em Vídeo](https://www.cursoemvideo.com/) para mais informações e para começar a aprender hoje mesmo!
 
-**P.S.:** Quero o módulo 5 de Python 3 pra ontem Guanabara.
+**P.S.:** Quero o módulo 5 de Python 3 pra ontem, Guanabara.
 
 <div  align="center">
  
